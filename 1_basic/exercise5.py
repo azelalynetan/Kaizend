@@ -15,3 +15,10 @@ numbers = [
     94, 18, 98, 72, 96, 26, 13, 7, 58, 67,
     38, 48, 43, 98, 65, 8, 74, 44, 92
 ]
+
+numbers_len = len(numbers)
+x = 0
+while x < numbers_len:
+    if(numbers[x] > 90):
+        print(numbers[x])
+    x += 1
